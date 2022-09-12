@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
 }
+
 /* -------------------------------------- */
 /* -------------------------------------- */
 
@@ -138,7 +139,7 @@
 #watchme {
     display: flex;
     position: relative;
-    left: 50px;
+    left: 40px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -219,3 +220,39 @@
     flex-basis: 100%;
 }
 
+/* ------------------- */
+/* VALIDATION SECTION */
+/* ----------------- */
+
+.validation__container {
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 205px;
+    height: 574px;
+    width: 1110px;
+}
+.boxsize__para {
+    /* background-color: #2F281E; */
+    display: inline-flex;
+    max-width: 486px;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+.para--bold {
+    font-weight: 700;
+}
+.para--heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.growme {
+    flex-grow: 1;
+}
+
+/* ------------------------- */
+/* PRODUCT MANAGERS SECTION */
+/* ----------------------  */
