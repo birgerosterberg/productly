@@ -1,0 +1,83 @@
+/* Style to center the content containers! */
+.mainalign {
+    display: flex;
+    justify-content: center;
+}
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+/* Main Navigationbar container */
+.top__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua;  <--- BUGTEST ROW! */
+    width: 1111px;
+    height: 46;
+    margin-top: 20px;
+}
+.logo {
+    display: flex;
+    height: 32px;
+    width: 185px;
+}
+.mtext {
+    margin-right: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+/* remove the underscore of the links! */
+    color: #2F281E;
+}
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+}
+.btn--si {
+    width: 102px;
+    margin-left: 20px;
+    border-width: 1px;
+    background-color: white;
+    color: black;
+    border-color: #BCD0E5;
+    border-style: solid;
+}
+.btn--su {
+    width: 110px;
+    margin-left: 14px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF9900;
+}
+
+/* HEADER ROW START */
+
+.header__container {
+    display: flex;
+    position: relative;
+    direction: row;
+    justify-content: flex-start;
+    background-color: aqua;
+    top: 52px;
+    height: 496px;
+    width: 1126px;
+}
+.headline {
+    display: flex;
+}
+.paragraph {
+    display: flex;
+}
