@@ -16,7 +16,7 @@
     align-items: center;
     /* background-color: aqua;  <--- BUGTEST ROW! */
     width: 1111px;
-    height: 46;
+    height: 46px;
     top: 20px;
     flex-basis: 100%;
 }
@@ -324,8 +324,6 @@
     display: flex;
     position: absolute;
     direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
     /* background-color: aqua; */
     height: 308px;
     width: 1109px;
@@ -333,7 +331,7 @@
     border-top: 1px;
     border-left: 0;
     border-right: 0;
-    border-bottom: 0;
+    border-bottom: 0; 
     border-style: solid;
     border-color: #BCD0E5;
 }
