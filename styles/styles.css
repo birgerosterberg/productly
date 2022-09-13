@@ -85,6 +85,17 @@
     font-weight: 700;
     border: none;
 }
+/* BUTTON FROM FOOTER ROW! */
+.btn--feetfirst {
+    position: absolute;
+    height: 39px;
+    width: 131px;
+    font-weight: 700;
+    left: 784px;
+    top: 262px;
+}
+
+/* END OF BUTTON DESIGN AREA!!!!!!!!! */
 
   /* ---------- */
  /* HEADER ROW */
@@ -148,7 +159,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     text-decoration-line: underline;
     color: #FF9900;
 }
@@ -303,4 +313,68 @@
 .size--diff--mark {
     height: 531px;
     width: 486px;
+}
+
+   /* -------------- */
+  /*   (FOOTER)     */
+ /* FEEEETFIRST!   */
+/* -------------- */
+
+.feetfirst__container {
+    display: flex;
+    position: absolute;
+    direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-color: aqua; */
+    height: 308px;
+    width: 1109px;
+    top: 3452px;
+    border-top: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: #BCD0E5;
+}
+.feet--logo {
+    display: flex;
+    position: absolute;
+    top: 102px;
+    left: 0px;
+}
+.feet__text {
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+.box1 {
+    position: absolute;
+    flex-basis: 100%;
+    max-width: 379px;
+    height: 140px;
+    left: 324px;
+    top: 167px;
+}
+.box2 {
+    position: absolute;
+    flex-basis: 100%;
+    max-width: 379px;
+    height: 140px;
+    left: 571px;
+    top: 167px;
+}
+.feet__text__in {
+    position: absolute;
+    width: 325px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    top: 193px;
+    left: 784px;
 }
